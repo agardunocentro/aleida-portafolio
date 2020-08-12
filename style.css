@@ -1,0 +1,149 @@
+/* Tipografía */
+
+@font-face {
+  font-family: "bodoni-bold";
+  src: url("./assets/fonts/BodoniFLF-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "bodoni-bolditalic";
+  src: url("./assets/fonts/BodoniFLF-BoldItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "bodoni-italic";
+  src: url("./assets/fonts/BodoniFLF-Italic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "bodoni-roman";
+  src: url("./assets/fonts/BodoniFLF-Roman.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "grotesk-light";
+  src: url("./assets/fonts/PxGrotesk-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "grotesk-regular";
+  src: url("./assets/fonts/PxGrotesk-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/****************************************
+*    Variables
+*****************************************/
+/* Resets */
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+blockquote,
+body,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+hr,
+li,
+ol,
+pre,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+s button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+button,
+input,
+textarea {
+  border: 1px solid gray;
+}
+button {
+  border-radius: 0;
+  padding: 0.75em 1em;
+  background-color: transparent;
+}
+button * {
+  pointer-events: none;
+}
+embed,
+iframe,
+img,
+object,
+video {
+  display: block;
+  max-width: 100%;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+[hidden] {
+  display: none;
+}
+noscript {
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/****************************************
+*    Base
+*****************************************/
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "grotesk-regular";
+}
+
+.light {
+  font-family: "grotesk-light";
+}
+
+h1 {
+  font-family: "bodoni-bold";
+}
+
+h2 {
+  font-family: "bodoni-bolditalic";
+}
+
+h3 {
+  font-family: "bodoni-italic";
+}
+
+h4 {
+  font-family: "bodoni-roman";
+}
+
+/****************************************
+*    Componentes
+*****************************************/
